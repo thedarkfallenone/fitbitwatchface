@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "e481657f-f5ae-4de6-aa4f-0c4350200585",
+    "appType": "clockface",
+    "appDisplayName": "SDK Moment",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "SDK Moment"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}

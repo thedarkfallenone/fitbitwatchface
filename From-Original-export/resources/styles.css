@@ -1,0 +1,85 @@
+/*   Y is vertical, X is Horizontal  */
+
+/*   Leave This */
+#background {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  fill: #000000;
+}
+/*   Everything CLock */
+.clock-text {
+  font-family: Fabrikat-Bold ;
+  font-size: 55;
+  text-anchor: middle;
+  text-length: 20;
+  x: 50%;
+  y: 85%;
+  width: 100%;
+  height: 100%;
+  fill: #FFFFFF;
+}
+/*   Everything Date  */
+.date-text {
+  font-family: Seville;
+  font-size: 26;
+  text-anchor: middle;
+  text-length: 32;
+  x: 50%;
+  y: 10%;
+  width: 100%;
+  height: 100%;
+  fill: #0B45B1;
+}
+
+
+
+/*   Overall Stats position */
+.stats {
+  x: 50%-111;
+  y: 70%+26;
+  width: 222;
+  height: 70;
+}
+/*   Overall Base Font for Stats */
+.stats text {
+  font-family: SevilleSharp;
+  font-size: 25;
+  text-length: 16;
+  fill: #FFFFFF;
+}
+/*   Heart Rate Icon position */
+#iconHRM {
+  width: 24;
+  height: 24;
+  y: 30;
+  x: 1;
+  fill: #FF214A;
+}
+/*   Heart Rate Monitor Text position */
+.stat-left {
+  x: 31;
+  y: 50;
+}
+
+.stat-right {
+  x: 100%;
+  width: 100%;
+  text-anchor: end
+}
+/*   Step counter text position */
+#stats-cycle {
+  x: 40%;
+  y: 5;
+  width: 60%;
+  height: 100%;
+}
+/*   Step counter image position */
+.cycle-item image {
+  x: 50%;
+  y: 40%;
+  fill: #FFFFFF;
+  width: 24;
+  height: 24;
+}
